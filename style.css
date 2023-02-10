@@ -43,9 +43,13 @@ body{
     width: 90%;
     left: 7.5%;
     top: 10%;
-    /* display: none; */
+    
+}
+.main-container-display{
+    display: none;
 
 }
+
 h2{
     color: hsl(0, 0%, 100%);
 }
@@ -53,6 +57,7 @@ h2{
 .text-container{
     width: 90%;
     color: hsl(216, 12%, 54%);
+    text-align: center;
 }
 
 #number-container{
@@ -102,4 +107,32 @@ h2{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 
+}
+
+
+/* thank you state */
+
+.thankyou-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#rating-container{
+    background-color:hsl(216, 12%, 8%);
+    width: 70%;
+    height: 1.25rem;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#rating{
+    color: orange;
+    text-align: center;
+    font-size: small; 
+}
+
+#heading{
+    text-align: center;
 }
