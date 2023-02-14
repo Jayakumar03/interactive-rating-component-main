@@ -130,9 +130,15 @@ h2{
 #rating{
     color: orange;
     text-align: center;
-    font-size: small; 
+    font-size: 1rem; 
 }
 
 #heading{
     text-align: center;
 }
+
+.position{
+    position: relative;
+    bottom: 1rem;
+}
+

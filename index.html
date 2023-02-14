@@ -12,16 +12,6 @@
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -46,7 +36,7 @@
           <div id="number-container">
 
             <div >
-             <button class="indi-number" id="number1">1</button> 
+             <button class="indi-number">1</button> 
             </div>
 
             <div >
@@ -88,13 +78,13 @@
       <img src="./images/illustration-thank-you.svg" alt="Thank you image">
     </div>
 
-    <div id="rating-container">
-      <h6 id="rating">You selected  Add rating hereout of 5 </h6>
+    <div id="rating-container" class="position">
+      <h6 id="rating" >You selected <span id="selected-rating"></span> of  5 </h6>
     </div>
 
-    <h2 id="heading">Thank you! </h2>
+    <h2 id="heading" class="position">Thank you! </h2>
 
-    <div class="text-container">
+    <div class="text-container position">
       <p > We appreciate you taking the time to give a rating. If you ever need more support, 
         don’t hesitate to get in touch! </p>
     </div>
@@ -103,7 +93,6 @@
 
 </div>
   
-
   <script src="./index.js" ></script>
 </body>
 
